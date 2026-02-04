@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+body {
+    background-color: #eef2f7;
+    line-height: 1.6;
+}
+
+.top-bar {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.post-btn {
+    background-color: #38bdf8;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.hero input {
+    padding: 12px;
+    width: 220px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero button {
+    padding: 12px 18px;
+    margin-left: 8px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.job-list {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.job-box {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-left: 5px solid #1e40af;
+    border-radius: 8px;
+}
+
+.job-box span {
+    color: #64748b;
+    font-size: 14px;
+}
+
+.job-box a {
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: none;
+    color: #1e40af;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    color: white;
+    margin-top: 30px;
+}
