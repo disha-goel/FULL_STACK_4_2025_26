@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+body {
+  background-color: #eef2f7;
+  line-height: 1.6;
+  color: #1e293b;
+}
+
+a { text-decoration: none; }
+
+button {
+  cursor: pointer;
+}

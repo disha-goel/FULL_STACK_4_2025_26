@@ -1,0 +1,116 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.back {
+  background: none;
+  border: none;
+  color: #1e40af;
+  font-size: 0.95rem;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.back:hover { text-decoration: underline; }
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.header h1 { font-size: 1.6rem; color: #1e293b; }
+
+.company { color: #475569; font-size: 1rem; margin-top: 4px; }
+
+.type {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+hr { border: none; border-top: 1px solid #e2e8f0; margin: 20px 0; }
+
+h3 { color: #1e293b; margin: 16px 0 8px; }
+
+.desc { color: #475569; line-height: 1.7; white-space: pre-line; }
+
+.applyBtn {
+  margin-top: 24px;
+  background: #1e40af;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.applyBtn:hover { background: #1d4ed8; }
+
+.success {
+  margin-top: 20px;
+  background: #dcfce7;
+  color: #166534;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.form {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 20px;
+}
+
+.form h3 { margin-bottom: 4px; }
+
+.form input, .form textarea {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  font-family: inherit;
+}
+
+.form button {
+  padding: 12px;
+  background: #16a34a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.form button:hover { background: #15803d; }
+
+.msg { text-align: center; margin-top: 60px; color: #64748b; }
+.error { text-align: center; margin-top: 60px; color: #dc2626; }

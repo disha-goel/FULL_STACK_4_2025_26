@@ -1,0 +1,68 @@
+.card {
+  background: white;
+  border-left: 5px solid #1e40af;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 6px;
+}
+
+.header h3 {
+  font-size: 1.1rem;
+  color: #1e293b;
+}
+
+.type {
+  background: #dbeafe;
+  color: #1e40af;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.company {
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 4px;
+}
+
+.location, .salary {
+  font-size: 0.88rem;
+  color: #64748b;
+  margin-bottom: 2px;
+}
+
+.desc {
+  font-size: 0.88rem;
+  color: #94a3b8;
+  margin: 10px 0;
+}
+
+.applyBtn {
+  display: inline-block;
+  margin-top: 8px;
+  background-color: #1e40af;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.applyBtn:hover {
+  background-color: #1d4ed8;
+}

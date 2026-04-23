@@ -1,0 +1,58 @@
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.filters input {
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  flex: 1;
+  min-width: 160px;
+  outline: none;
+}
+
+.filters button {
+  padding: 10px 22px;
+  background: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.filters button:hover {
+  background: #1d4ed8;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+}
+
+.msg {
+  text-align: center;
+  color: #64748b;
+  margin-top: 40px;
+}
+
+.error {
+  text-align: center;
+  color: #dc2626;
+  margin-top: 40px;
+}
