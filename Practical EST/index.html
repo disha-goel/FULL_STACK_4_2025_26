@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Post</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    form {
+      width: 300px;
+    }
+    input, textarea, button {
+      width: 100%;
+      margin: 8px 0;
+      padding: 6px;
+    }
+    .success {
+      color: green;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+    <h2>Create Post</h2>
+    <form id="postForm">
+        <input type="text" id="title" placeholder="Title" required />
+        <textarea id="body" placeholder="Body" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMsg" style="color:green; display:none;">Data submitted successfully!</p>
+<script>
+    const form = document.getElementById("postForm");
+    const successMsg = document.getElementById("successMsg");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        successMsg.style.display = "block";
+
+        const data = {
+        title: document.getElementById("title").value,
+        body: document.getElementById("body").value
+    };
+    fetch("/api/posts", {
+        method: "POST",
+        headers: {
+        "Content-Type": "application/json"
+    },
+    body: JSON.stringify(data)
+    });
+
+    form.reset();
+  });
+</script>
+</body>
+</html>
